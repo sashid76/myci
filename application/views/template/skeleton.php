@@ -773,7 +773,7 @@
         <div class="bs-old-docs" style="z-index:999; width:100%; background-color:#ffffff;" data-spy="affix" data-offset-top='50'>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2"><a href="<?php echo base_url("/home/") ?>"><img height="70px;" src="<?php echo base_url(); ?>assets/img/custom/aibd_logo.jpg" alt="logo" style="margin-bottom:7px; margin-top:7px;" /></a></div>
+                    <div class="col-md-2"><a href="<?php echo base_url("/home/") ?>"><img height="70px;" src="<?php echo $this->config->item('site_logo_path'); ?>" alt="AIBD" style="margin-bottom:7px; margin-top:7px;" /></a></div>
                     <div class="col-md-4 hidden-xs" style="margin-top:10px;">&nbsp;</div>
                     <div class="col-md-4" style="margin-top:10px;">
                     <!--<div style="padding-top: 10px;" id="notification"></div>-->
