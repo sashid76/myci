@@ -1,0 +1,42 @@
+<?php
+
+class Rplist_model extends CI_Model {
+
+    private $CI;
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->CI =& get_instance();
+        $this->default_db = $this->load->database('default', TRUE);
+        //$this->default_db->save_queries = FALSE;
+    }
+
+
+    function get_rp_list(){
+
+        $this->default_db->select('*');
+        $this->default_db->from('rpcontact');
+        //$this->default_db->where('title', 'Mr.');
+        //$this->db->order_by('rid', 'ASC');
+
+        $query = $this->default_db->get();
+        echo $this->default_db->last_query();
+        
+        if($query->num_rows() > 0){
+            foreach ($query->result() as $row){
+                //echo $row->title;
+                //echo $row->name;
+                //echo $row->body;
+                $data[] = $row;
+            }          
+            $fp = fopen(APPPATH . '/uploads/'. 'rpcontact.json', 'w');
+            fwrite($fp, json_encode($data));
+            fclose($fp);
+
+            return json_encode($data);
+        }        
+        $query->free_result();
+    }
+}
+?>

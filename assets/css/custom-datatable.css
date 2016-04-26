@@ -1,0 +1,94 @@
+/*-- Button --*/
+.btn-refresh {
+  background-color: #FF8000;
+  border-color: #FF8000;
+  color:#ffffff;
+  /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+  border: 1px solid #ddd;*/
+}
+
+.btn-refresh:hover,
+.btn-refresh:focus,
+.btn-refresh:active,
+.btn-refresh.active {
+background-color: #e67300;
+border-color: #cc6600;
+color:#ffffff;
+}
+  .btn-refresh.disabled:hover,
+  .btn-refresh.disabled:focus,
+  .btn-refresh.disabled:active,
+  .btn-refresh.disabled.active,
+  .btn-refresh[disabled]:hover,
+  .btn-refresh[disabled]:focus,
+  .btn-refresh[disabled]:active,
+  .btn-refresh[disabled].active,
+  fieldset[disabled] .btn-refresh:hover,
+  fieldset[disabled] .btn-refresh:focus,
+  fieldset[disabled] .btn-refresh:active,
+  fieldset[disabled] .btn-refresh.active {
+  background-color: #FF8000;
+  border-color: #FF8000;
+}
+/*-- Button --*/
+
+/*-- Table --*/
+thead th {
+    background-color: #2F68BF;
+    color: #ffffff;
+}     
+
+tfoot th {
+    background-color: #2F68BF;
+    color: #ffffff;
+}  
+
+/*
+.table-hover thead tr:hover th, 
+ .table-hover tbody tr:hover td {
+        background-color: #c1c1c1;
+        color:#ffffff;
+        font-weight: bold;
+}
+*/
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left: solid #ccc 1px;;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+.table-curved tfoot tr:first-child td {
+    border-top-width: thick;
+    border-radius: 0 0  6px 0;
+}
+.table-curved tfoot tr td:first-child {
+    border-left-width: thick;
+    border-radius: 0 0 0 6px;
+}        
+/*-- Table --*/

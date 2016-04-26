@@ -1,0 +1,286 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #003366;
+}
+
+#wrap > .container {
+  padding: 0px 15px 0;
+}
+.container .credit {
+  margin: 0px 0;
+}
+
+#footer > .container {
+  padding-top:20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:#ffffff;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 0px 15px 0;
+}
+.container .credit {
+  margin: 0px 0;
+}
+
+#footer > .container {
+  padding-top:20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:#ffffff;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* footer */
+/* Foot (Twitter) */
+
+.foot{
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top:25px !important;
+}
+
+.foot .twitter-icon i{
+  border-radius: 50px !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+  background: #1171a3;
+}
+
+.foot ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.foot a{
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  font-style: italic;
+}
+
+.foot a:hover{
+  border-bottom: 0px;
+}
+
+
+/* Footer */
+footer{
+  background: #fafafa;
+  color: #555;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+footer a{
+  color: #777;
+}
+
+footer a:hover{
+  color: #666;
+}
+
+footer h4{
+  color: #666;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+footer hr{
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+footer ul{
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+footer ul li{
+  padding: 3px 0px;
+}
+
+footer .widgets{
+  margin-top: 20px;
+}
+
+footer .copy{
+  border-top: 1px solid #ddd;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+.fwidget ul{
+  margin:0px;
+  padding:0px;
+}
+
+.fwidget .form-inline{
+   width:100%;
+   max-width:300px;
+}
+
+@media (max-width: 767px){   
+  footer .fwidget{
+    margin-bottom: 15px;
+  }  
+}
+
+@media (max-width: 480px){   
+  .foot{
+    padding: 25px 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top:25px !important;
+  }
+}
+
+
+/* Background colors */
+
+.bgray{
+  background: #f1f1f1 !important;
+  color: #fff !important;
+  /*border:0px !important;*/
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+
+.bblack{
+  background: #222 !important;
+  color: #fff !important;
+  border:0px !important;
+}
+
+.blightblue{
+  background:#003366 !important;
+  color: #fff !important;
+  border: 0px !important;
+}
+
+.bblue{
+  background:#1171a3 !important;
+  color: #fff !important; 
+  border: 0px !important;
+}
+
+.bgreen{
+  background: #43c83c !important;
+  color: #fff !important; 
+  border: 0px !important;
+}
+
+.borange{
+  background:#f88529 !important;
+  color: #fff !important; 
+  border: 0px !important; 
+}
+
+.bred{
+  background: #fa3031 !important;
+  color: #fff !important; 
+  border: 0px !important;
+}
+
+.bviolet{
+  background: #932ab6 !important;
+  color: #fff !important; 
+  border: 0px !important;
+}
+
+.blightblue h2,.blightblue h3, .blightblue h4, .blightblue h5, .blightblue h6,
+.bblue h2,.bblue h3, .bblue h4, .bblue h5, .bblue h6,
+.bgreen h2,.bgreen h3, .bgreen h4, .bgreen h5, .bgreen h6,
+.bred h2,.bred h3, .bred h4, .bred h5, .bred h6,
+.bviolet h2,.bviolet h3, .bviolet h4, .bviolet h5, .bviolet h6,
+.borange h2,.borange h3, .borange h4, .borange h5, .borange h6{
+  color: #fff !important;
+}
+ 
+
+/* Text colors */
+
+.lightblue{
+  color:#52b9e9 !important;
+}
+
+.blue{
+  color:#1171a3 !important;
+}
+
+.green{
+  color: #43c83c !important;
+}
+
+.orange{
+  color:#f88529 !important;
+}
+
+.red{
+  color: #fa3031 !important;
+}
+
+.violet{
+  color: #932ab6 !important;
+}
+
+/* Social */
+
+.social{
+  padding: 7px 0px;
+}
+
+.social a{
+  width: 24px;
+  height: 24px;
+  margin: 0px 3px;
+  line-height: 24px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
