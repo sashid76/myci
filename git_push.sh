@@ -1,4 +1,4 @@
 git add .
 git add --all
-git commit -m "First commit"
+git commit -m "Master Copy"
 git push origin master
