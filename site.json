@@ -1,0 +1,26 @@
+{
+	"site" : {
+		"appid" : 1,
+		"title" : "AIBD",
+		"slogan": "Asia Pasific Institute for Broadcasting Development",
+		"name" : "Resource Person Database",
+		"maintenance" : false
+	},
+	"settings" : {
+		"lastupdate" : "18/04/2016",
+		"currentyear" : "2016",
+		"currentversion" : "1.0.9",
+		"latestversion" : "1.10.0"
+	},
+	"social" : {
+		"facebook" : "url",
+		"twitter" : "url",
+		"linkedin" : "url",
+		"youtube" : "url",
+		"gplus" : "url"
+	},
+	"youtube" : {
+		"url" : "//www.youtube.com/watch?v=Dd4Aqdy1fc0",
+		"fburl" : "https://www.youtube.com/watch?v=Dd4Aqdy1fc0"
+	}
+}
