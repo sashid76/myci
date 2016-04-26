@@ -4313,3 +4313,357 @@ INFO - 2016-04-26 16:32:12 --> File loaded: /var/www/html/myci/application/third
 INFO - 2016-04-26 16:32:12 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
 INFO - 2016-04-26 16:32:12 --> Final output sent to browser
 DEBUG - 2016-04-26 16:32:12 --> Total execution time: 0.0665
+INFO - 2016-04-26 17:01:48 --> Config Class Initialized
+INFO - 2016-04-26 17:01:48 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:01:48 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:01:48 --> URI Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:01:48 --> Router Class Initialized
+INFO - 2016-04-26 17:01:48 --> Output Class Initialized
+INFO - 2016-04-26 17:01:48 --> Security Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:01:48 --> Input Class Initialized
+INFO - 2016-04-26 17:01:48 --> Language Class Initialized
+INFO - 2016-04-26 17:01:48 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:01:48 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:01:48 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:48 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:01:48 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:48 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:48 --> Controller Class Initialized
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:01:48 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:01:48 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:01:48 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:01:48 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:01:48 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:01:48 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:01:48 --> Final output sent to browser
+DEBUG - 2016-04-26 17:01:48 --> Total execution time: 0.0476
+INFO - 2016-04-26 17:01:48 --> Config Class Initialized
+INFO - 2016-04-26 17:01:48 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:01:48 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:01:48 --> URI Class Initialized
+INFO - 2016-04-26 17:01:48 --> Router Class Initialized
+INFO - 2016-04-26 17:01:48 --> Output Class Initialized
+INFO - 2016-04-26 17:01:48 --> Security Class Initialized
+DEBUG - 2016-04-26 17:01:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:01:48 --> Input Class Initialized
+INFO - 2016-04-26 17:01:48 --> Language Class Initialized
+ERROR - 2016-04-26 17:01:48 --> 404 Page Not Found: Assets/ico
+INFO - 2016-04-26 17:01:58 --> Config Class Initialized
+INFO - 2016-04-26 17:01:58 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:01:58 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:01:58 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:01:58 --> URI Class Initialized
+DEBUG - 2016-04-26 17:01:58 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:01:58 --> Router Class Initialized
+INFO - 2016-04-26 17:01:58 --> Output Class Initialized
+INFO - 2016-04-26 17:01:58 --> Security Class Initialized
+DEBUG - 2016-04-26 17:01:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:01:58 --> Input Class Initialized
+INFO - 2016-04-26 17:01:58 --> Language Class Initialized
+INFO - 2016-04-26 17:01:58 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:01:58 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:01:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:58 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:01:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:01:58 --> Controller Class Initialized
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:01:58 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:01:58 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:01:58 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:01:58 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:01:58 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:01:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:01:58 --> Final output sent to browser
+DEBUG - 2016-04-26 17:01:58 --> Total execution time: 0.0527
+INFO - 2016-04-26 17:04:08 --> Config Class Initialized
+INFO - 2016-04-26 17:04:08 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:04:08 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:04:08 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:04:08 --> URI Class Initialized
+DEBUG - 2016-04-26 17:04:08 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:04:08 --> Router Class Initialized
+INFO - 2016-04-26 17:04:08 --> Output Class Initialized
+INFO - 2016-04-26 17:04:08 --> Security Class Initialized
+DEBUG - 2016-04-26 17:04:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:04:08 --> Input Class Initialized
+INFO - 2016-04-26 17:04:08 --> Language Class Initialized
+INFO - 2016-04-26 17:04:08 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:04:08 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:04:08 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:08 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:04:08 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:08 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:08 --> Controller Class Initialized
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:04:08 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:04:08 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:04:08 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:04:08 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:04:08 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:04:08 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:04:08 --> Final output sent to browser
+DEBUG - 2016-04-26 17:04:08 --> Total execution time: 0.0570
+INFO - 2016-04-26 17:04:24 --> Config Class Initialized
+INFO - 2016-04-26 17:04:24 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:04:24 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:04:24 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:04:24 --> URI Class Initialized
+DEBUG - 2016-04-26 17:04:24 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:04:24 --> Router Class Initialized
+INFO - 2016-04-26 17:04:24 --> Output Class Initialized
+INFO - 2016-04-26 17:04:24 --> Security Class Initialized
+DEBUG - 2016-04-26 17:04:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:04:24 --> Input Class Initialized
+INFO - 2016-04-26 17:04:24 --> Language Class Initialized
+INFO - 2016-04-26 17:04:24 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:04:24 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:04:24 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:24 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:04:24 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:24 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:24 --> Controller Class Initialized
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:04:24 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:04:24 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:04:24 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:04:24 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:04:24 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:04:24 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:04:25 --> Final output sent to browser
+DEBUG - 2016-04-26 17:04:25 --> Total execution time: 0.0465
+INFO - 2016-04-26 17:04:37 --> Config Class Initialized
+INFO - 2016-04-26 17:04:37 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:04:37 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:04:37 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:04:37 --> URI Class Initialized
+DEBUG - 2016-04-26 17:04:37 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:04:37 --> Router Class Initialized
+INFO - 2016-04-26 17:04:37 --> Output Class Initialized
+INFO - 2016-04-26 17:04:37 --> Security Class Initialized
+DEBUG - 2016-04-26 17:04:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:04:37 --> Input Class Initialized
+INFO - 2016-04-26 17:04:37 --> Language Class Initialized
+INFO - 2016-04-26 17:04:37 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:04:37 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:04:37 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:37 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:04:37 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:37 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:37 --> Controller Class Initialized
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:04:37 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:04:37 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:04:37 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:04:37 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:04:37 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:04:37 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:04:37 --> Final output sent to browser
+DEBUG - 2016-04-26 17:04:37 --> Total execution time: 0.0561
+INFO - 2016-04-26 17:04:58 --> Config Class Initialized
+INFO - 2016-04-26 17:04:58 --> Hooks Class Initialized
+DEBUG - 2016-04-26 17:04:58 --> UTF-8 Support Enabled
+INFO - 2016-04-26 17:04:58 --> Utf8 Class Initialized
+INFO - 2016-04-26 17:04:58 --> URI Class Initialized
+DEBUG - 2016-04-26 17:04:58 --> No URI present. Default controller set.
+INFO - 2016-04-26 17:04:58 --> Router Class Initialized
+INFO - 2016-04-26 17:04:58 --> Output Class Initialized
+INFO - 2016-04-26 17:04:58 --> Security Class Initialized
+DEBUG - 2016-04-26 17:04:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-04-26 17:04:58 --> Input Class Initialized
+INFO - 2016-04-26 17:04:58 --> Language Class Initialized
+INFO - 2016-04-26 17:04:58 --> Loader Class Initialized
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/config/development/custom.php
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/config/development/ftp.php
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/config/development/upload.php
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/config/development/logging.php
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/config/development/email.php
+INFO - 2016-04-26 17:04:58 --> Helper loaded: url_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: form_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: file_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: cookie_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: nav_helper
+INFO - 2016-04-26 17:04:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:58 --> Session: Class initialized using 'files' driver.
+INFO - 2016-04-26 17:04:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:58 --> Database Driver Class Initialized
+INFO - 2016-04-26 17:04:58 --> Controller Class Initialized
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/pages/home/home.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/nav.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/basejs.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/header.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/footer.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/main.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/views/template/skeleton.php
+DEBUG - 2016-04-26 17:04:58 --> Config file loaded: /var/www/html/myci/application/third_party/DevelBar/config/develbar.php
+INFO - 2016-04-26 17:04:58 --> Helper loaded: utility_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: language_helper
+INFO - 2016-04-26 17:04:58 --> Helper loaded: text_helper
+INFO - 2016-04-26 17:04:58 --> Language file loaded: language/english/develbar_lang.php
+DEBUG - 2016-04-26 17:04:58 --> DevelBar Class Initialized !
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/benchmarks.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/memory_usage.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/request.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/database.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/hooks.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/config.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/session.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/views.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/models.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/libraries.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/helpers.php
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/css/develbar.css
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/assets/js/develbar.js
+INFO - 2016-04-26 17:04:58 --> File loaded: /var/www/html/myci/application/third_party/DevelBar/views/develbar/develbar.php
+INFO - 2016-04-26 17:04:58 --> Final output sent to browser
+DEBUG - 2016-04-26 17:04:58 --> Total execution time: 0.0657

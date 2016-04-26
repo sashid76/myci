@@ -49,9 +49,9 @@ class Home extends MY_Controller {
         //$this->flasher->info('Object Info');
         
         Flasher::addInfo('Welcome to ' . $this->config->item('site_title'));
-        Flasher::addSuccess('Static Success');
-        Flasher::addWarning('Static Warning');
-        Flasher::addError('Static Error');
+        //Flasher::addSuccess('Static Success');
+        //Flasher::addWarning('Static Warning');
+        //Flasher::addError('Static Error');
 
         $controllername = $this->router->class;
         if (@file_exists(APPPATH."views/pages/{$controllername}/{$controllername}.php"))

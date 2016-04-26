@@ -82,9 +82,13 @@
                 <tr>
                   <td>PHP Version</td>
                   <td class="pull-right"><span class="badge alert-info"><?php echo phpversion(); ?></span></td>
-                </tr>                
+                </tr>
                 <tr>
-                  <td>Total Resource Person</td>
+                  <td>Codeigniter</td>
+                  <td class="pull-right"><span class="badge alert-info"><?php echo CI_VERSION; ?></span></td>
+                </tr>
+                <tr>
+                  <td>Total RP</td>
                   <td class="pull-right"><span class="badge alert-info"><?php //echo $this->mylibrary->count_rpcontact(); ?></span></td>
                 </tr>
                 <tr>
