@@ -177,15 +177,17 @@
          }
 
         .panel-heading .accordion-toggle:after {
-            /* symbol for "opening" panels */
-            font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
-            content: "\e114";    /* adjust as needed, taken from bootstrap.css */
-            float: right;        /* adjust as needed */
-            color: grey;         /* adjust as needed */
+            position: relative;
+            font-family: FontAwesome;
+            font-size: 24px;
+            line-height: 18px;
+            float: right;
+            margin-left: -1em;
+            color: #666666;
+            content: "\f139";
         }
         .panel-heading .accordion-toggle.collapsed:after {
-            /* symbol for "collapsed" panels */
-            content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+            content: "\f13a";
         }
 
         div.alert-messages {
@@ -629,7 +631,7 @@
 
         /* Panel refresh */
         .panel-refresh {
-         height:250px;
+         height:100%px;
          position:relative;
         }
          
@@ -649,7 +651,74 @@
          opacity: 0.8;
         }        
 
+
+        /* Toastr custom style */
+        #toast-container > .toast {
+          background-image: none !important;
+        }
+        #toast-container > .toast:before {
+          position: fixed;
+          font-family: FontAwesome;
+          font-size: 24px;
+          line-height: 24px;
+          float: left;
+          color: #FFF;
+          padding-right: 0.5em;
+          margin: auto 0.5em auto -1.5em;
+        }
+        #toast-container > .toast-warning:before {
+          content: "\f0e7";
+        }
+        #toast-container > .toast-error:before {
+          content: "\f071";
+        }
+        #toast-container > .toast-info:before {
+          content: "\f129";
+        }
+        #toast-container > .toast-success:before {
+          content: "\f00C";
+        }
+        #toast-container > div {
+          -moz-box-shadow: 0 0 3px #999;
+          -webkit-box-shadow: 0 0 3px #999;
+          box-shadow: 0 0 3px #999;
+          opacity: .9;
+          -ms-filter: alpha(opacity=90);
+          filter: alpha(opacity=90);
+        }
+        #toast-container > :hover {
+          -moz-box-shadow: 0 0 4px #999;
+          -webkit-box-shadow: 0 0 4px #999;
+          box-shadow: 0 0 4px #999;
+          opacity: 1;
+          -ms-filter: alpha(opacity=100);
+          filter: alpha(opacity=100);
+          cursor: pointer;
+        }
+        .toast {
+          background-color: #030303;
+        }
+        .toast-success {
+          background-color: #51a351;
+        }
+        .toast-error {
+          background-color: #e74c3c;
+        }
+        .toast-info {
+          background-color: #3498db;
+        }
+        .toast-warning {
+          background-color: #f39c12;
+        }
+        .toast-top-full-width {
+          margin-top: 20px;
+        }
+        .toast-bottom-full-width {
+          margin-bottom: 20px;
+        }
+
         /* toaster */
+        /*
         .toast {
           background-color: #030303;
         }
@@ -675,6 +744,7 @@
           -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
           filter: alpha(opacity=40);
         }
+        */
 
         /*
         #toast-container > .toast {
@@ -705,7 +775,60 @@
         #toast-container > .toast-success:before {
             content: "\f002";
         }
-        */                 
+        */
+
+        /* custom badge */
+        .bg-info {
+          background-color: #d9edf7;
+        }
+        a.bg-info:hover,
+        a.bg-info:focus {
+          background-color: #afd9ee;
+        }
+        
+        .bg-success {
+          background-color: #dff0d8;
+        }
+        a.bg-success:hover,
+        a.bg-success:focus {
+          background-color: #c1e2b3;
+        }
+
+        .bg-warning {
+          background-color: #fcf8e3;
+        }
+        a.bg-warning:hover,
+        a.bg-warning:focus {
+          background-color: #f7ecb5;
+        }
+        
+        .bg-danger {
+          background-color: #f2dede;
+        }
+        a.bg-danger:hover,
+        a.bg-danger:focus {
+          background-color: #e4b9b9;
+        }
+
+        .bg-info,
+        .navbar-nav>li>a .badge-header {
+            background-color: #3498db!important
+        }
+
+        .bg-success,
+        .navbar-nav>li>a .badge-header {
+            background-color: #51a351!important
+        }
+
+        .bg-warning,
+        .navbar-nav>li>a .badge-header {
+            background-color: #f39c12!important
+        }
+
+        .bg-danger,
+        .navbar-nav>li>a .badge-header {
+            background-color: #e74c3c!important
+        }
     </style>
 
     <script type="text/javascript">
@@ -1117,57 +1240,64 @@
             $(document).ready(function(){
     
                 toastr.options = {
-                  "closeButton": true,
-                  "debug": false,
-                  "newestOnTop": true,
-                  "progressBar": true,
-                  "positionClass": "toast-top-right",
-                  "preventDuplicates": false,
-                  "onclick": null,
-                  "showDuration": "300",
-                  "hideDuration": "1000",
-                  "timeOut": "5000",
-                  "extendedTimeOut": "1000",
-                  "showEasing": "swing",
-                  "hideEasing": "linear",
-                  "showMethod": "fadeIn",
-                  "hideMethod": "fadeOut"
+                    "closeButton": true,
+                    "debug": false,
+                    "newestOnTop": true,
+                    "progressBar": true,
+                    "positionClass": "toast-top-right",
+                    "preventDuplicates": false,
+                    "onclick": null,
+                    "showDuration": "300",
+                    "hideDuration": "1000",
+                    "timeOut": "5000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut",
+                    "iconClasses": {
+                        info: 'toast-info',
+                        success: 'toast-success',
+                        warning: 'toast-warning',
+                        error: 'toast-error'
+                      },                  
                 }
 
-                        <?php                           
-                            $flash_messages = $this->flasher->get();
-                            if(isset($flash_messages)){
-                                if ($flash_messages === NULL) return NULL;
-                                foreach($flash_messages as $key_type => $messages) :
-                                    foreach ($messages as $message) :
-                        ?>
+                    <?php                           
+                        $flash_messages = $this->flasher->get();
+                        if(isset($flash_messages)){
+                            if ($flash_messages === NULL) return NULL;
+                            foreach($flash_messages as $key_type => $messages) :
+                                foreach ($messages as $message) :
+                    ?>
 
-                                    <?php 
-                                        if($key_type == 'info'){
-                                    ?>
-                                            toastr.info('<?php echo $message; ?>.','Info<hr class="style-three" style="margin:1px;">')
-                                    <?php
-                                        }else if($key_type == 'success' ){
-                                    ?>
-                                            toastr.success('<?php echo $message; ?>.','Success<hr class="style-three" style="margin:1px;">')
-                                    <?php
-                                        }else if($key_type == 'warning' ){
-                                    ?>
-                                            toastr.warning('<?php echo $message; ?>.','Warning !<hr class="style-three" style="margin:1px;">')
-                                    <?php
-                                        }else if($key_type == 'error' ){
-                                    ?>
-                                            toastr.error('<?php echo $message; ?>.', 'Error !<hr class="style-three" style="margin:1px;">')
-                                    <?php
-                                        }
-                                    ?>
-                        <?php
-                                    endforeach;
+                                <?php 
+                                    if($key_type == 'info'){
+                                ?>
+                                        toastr.info('<?php echo $message; ?>.','Info<hr class="style-three" style="margin:1px;">')
+                                <?php
+                                    }else if($key_type == 'success' ){
+                                ?>
+                                        toastr.success('<?php echo $message; ?>.','Success<hr class="style-three" style="margin:1px;">')
+                                <?php
+                                    }else if($key_type == 'warning' ){
+                                ?>
+                                        toastr.warning('<?php echo $message; ?>.','Warning !<hr class="style-three" style="margin:1px;">')
+                                <?php
+                                    }else if($key_type == 'error' ){
+                                ?>
+                                        toastr.error('<?php echo $message; ?>.', 'Error !<hr class="style-three" style="margin:1px;">')
+                                <?php
+                                    }
+                                ?>
+                    <?php
                                 endforeach;
-                                unset($flash_messages);
-                                $this->flasher->clear();
-                            }                           
-                        ?>
+                            endforeach;
+                            unset($flash_messages);
+                            $this->flasher->clear();
+                        }                           
+                    ?>
+
             });
         });
     </script>

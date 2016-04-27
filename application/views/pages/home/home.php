@@ -31,6 +31,11 @@
 	<div class="row" style="margin:1px;">
 		<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
+			<span class="badge bg-info">updated</span>
+			<span class="badge bg-success">updated</span>
+			<span class="badge bg-warning">updated</span>
+			<span class="badge bg-danger">updated</span>
+			
 			<section class="panel panel-primary box-shadow-demo z-depth-2">
 				<header class="panel-heading">
 					<h3 class="panel-title">Time taken to render this page</h3>
@@ -41,7 +46,7 @@
 					<div class="alert alert-success alert-white rounded">
 				        <button type="button" data-dismiss="alert" aria-hidden="true" class="close">×</button>
 					        <div class="icon">
-					            <i class="fa fa-check"></i>
+					            <i class="fa fa-check-circle" aria-hidden="true"></i>
 					        </div>
 				        <strong>Success!</strong> 
 				        Changes has been saved successfully!
@@ -50,7 +55,7 @@
 				    <div class="alert alert-info alert-white rounded">
 				        <button type="button" data-dismiss="alert" aria-hidden="true" class="close">×</button>
 					        <div class="icon">
-					            <i class="fa fa-info-circle"></i>
+					            <i class="fa fa-info-circle" aria-hidden="true"></i>
 					        </div>
 				        <strong>Info!</strong> 
 				        Changes has been saved successfully!
@@ -59,7 +64,7 @@
 				    <div class="alert alert-warning alert-white rounded">
 				        <button type="button" data-dismiss="alert" aria-hidden="true" class="close">×</button>
 					        <div class="icon">
-					            <i class="fa fa-warning"></i>
+					            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
 					        </div>
 				        <strong>Warning!</strong> 
 				        Changes has been saved successfully!
@@ -68,7 +73,7 @@
 				    <div class="alert alert-danger alert-white rounded">
 				        <button type="button" data-dismiss="alert" aria-hidden="true" class="close">×</button>
 					        <div class="icon">
-					            <i class="fa fa-times-circle"></i>
+					            <i class="fa fa-times-circle" aria-hidden="true"></i>
 					        </div>
 				        <strong>Error!</strong> 
 				        Changes has been saved successfully!
@@ -84,19 +89,16 @@
 			<!--refresh widget-->
 	        <div class="panel panel-primary">
 	          <div class="panel-heading">
-				<h3 class="panel-title">Refresh Panel</h3>
-				  <span style="margin-left: 5px;" id="refresh1" class="pull-right"><i class="fa fa-refresh"></i></span>
+				<h3 class="panel-title">Refresh Panel</h3>		  
 				  <span class="pull-right clickable"><i class="fa fa-chevron-circle-up"></i></span>
 	          </div>
-	          <div class="panel-body panel-refresh">
-	         	<div class="refresh-container"><i class="refresh-spinner fa fa-spinner fa-spin fa-5x"></i></div>
+	          <div class="panel-body">	         	
 	            <h4>Refresh Me</h4>
 	              <div class="well"> 
 	                This widget utilizes the simple <strong>$.refreshMe()</strong> plugin!
 	              </div>
-
 	          </div>
-	          <footer class="panel-footer refresh-data">Panel footer</footer>
+	          <footer class="panel-footer">Panel footer</footer>
 	        </div>
 	    	<!--refresh widget-->
 

@@ -23,10 +23,18 @@
       </div>
   </div>
 
+  <?php 
+    if(!$this->mylibrary->isUserLogged()){
+      //echo "not logged in!";
+    }else{
+      //echo "logged in";
+    }
+  ?>
+
   <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
 
-        <section class="panel panel-primary">
+        <section class="panel panel-primary box-shadow-demo z-depth-2">
           <header class="panel-heading">
             <h3 class="panel-title">Admin Menu</h3>
           </header>
@@ -43,7 +51,7 @@
           <footer class="panel-footer">Admin Menu</footer>
         </section>
 
-        <section class="panel panel-primary">
+        <section class="panel panel-primary box-shadow-demo z-depth-2">
           <header class="panel-heading">
             <h3 class="panel-title">Quick Menu</h3>
           </header>
@@ -61,12 +69,14 @@
           <footer class="panel-footer">Quick Menu</footer>
         </section>
 
-        <section class="panel panel-primary">
+        <section class="panel panel-primary box-shadow-demo z-depth-2">
           <header class="panel-heading">
             <h3 class="panel-title">Statistics</h3>
+            <span style="margin-left: 5px;" id="refresh1" class="pull-right"><i class="fa fa-refresh"></i></span>
             <span class="pull-right clickable"><i class="fa fa-chevron-circle-up"></i></span>
           </header>
-          <div class="panel-body">
+          <div class="panel-body panel-refresh">
+            <div class="refresh-container"><i class="refresh-spinner fa fa-spinner fa-spin fa-5x"></i></div>
 
             <?php
               $log_path = "var/www/html/myci/myci/logs/audit/";
@@ -111,7 +121,7 @@
             </table>
          
           </div>
-          <footer class="panel-footer">Statistics</footer>
+          <footer class="panel-footer refresh-data">Statistics</footer>
         </section>
 
       </div>

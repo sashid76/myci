@@ -48,7 +48,13 @@ class Home extends MY_Controller {
         //$this->flasher->success('Object Success');
         //$this->flasher->info('Object Info');
         
-        Flasher::addInfo('Welcome to ' . $this->config->item('site_title'));
+            if(!$this->mylibrary->isUserLogged()){
+              Flasher::addWarning('Welcome to ' . $this->config->item('site_title') . " Kindly proceed to login now!");
+            }else{
+              Flasher::addSuccess('Welcome to ' . $this->config->item('site_title'));
+            }
+
+        //Flasher::addInfo('Welcome to ' . $this->config->item('site_title'));
         //Flasher::addSuccess('Static Success');
         //Flasher::addWarning('Static Warning');
         //Flasher::addError('Static Error');
