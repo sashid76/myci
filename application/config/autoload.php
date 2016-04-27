@@ -97,7 +97,7 @@ $autoload['helper'] = array('url','form','file','cookie','nav_helper');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array("development/custom","development/ftp","development/upload","development/logging","development/email");
+$autoload['config'] = array("development/ftp","development/upload","development/logging","development/email");
 
 /*
 | -------------------------------------------------------------------

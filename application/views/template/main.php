@@ -67,10 +67,14 @@
             <span class="pull-right clickable"><i class="fa fa-chevron-circle-up"></i></span>
           </header>
           <div class="panel-body">
+
             <?php
+              $log_path = "var/www/html/myci/myci/logs/audit/";
+
               $this->data['my_local_ip_address'] = $this->input->ip_address();
-              $this->data['photo_upload_directory_size'] = $this->mytools->folderSize($this->config->item('photo_upload_path'));
-              $this->data['cv_upload_directory_size'] = $this->mytools->folderSize($this->config->item('cv_upload_path'));
+              $this->data['log_path'] = $this->mytools->folderSize($log_path);
+              $this->data['photo_path'] = $this->mytools->folderSize($this->config->item('photo_path'));
+              $this->data['cv_path'] = $this->mytools->folderSize($this->config->item('cv_path'));              
             ?>
 
             <table cellpadding="0" cellspacing="0" width="100%">
@@ -92,12 +96,16 @@
                   <td class="pull-right"><span class="badge alert-info"><?php //echo $this->mylibrary->count_rpcontact(); ?></span></td>
                 </tr>
                 <tr>
-                  <td>Image folder</td>
-                  <td class="pull-right"><span class="badge alert-info"><?php echo  $this->data['photo_upload_directory_size']; ?></span></td>
+                  <td>Log path</td>
+                  <td class="pull-right"><span class="badge alert-info"><?php echo  $this->data['log_path']; ?></span></td>
                 </tr>
                 <tr>
-                  <td>CV folder</td>
-                  <td class="pull-right"><span class="badge alert-info"><?php echo $this->data['cv_upload_directory_size']; ?></span></td>
+                  <td>Image path</td>
+                  <td class="pull-right"><span class="badge alert-info"><?php echo  $this->data['photo_path']; ?></span></td>
+                </tr>
+                <tr>
+                  <td>CV path</td>
+                  <td class="pull-right"><span class="badge alert-info"><?php echo $this->data['cv_path']; ?></span></td>
                 </tr>                
               </tbody>
             </table>
