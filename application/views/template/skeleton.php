@@ -865,6 +865,17 @@
         }        
     </script>
 
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"<?php echo $this->config->item('site_description'); ?> application uses cookies to ensure you get the best experience on this website. Application settings & data are temporarily stored in cookies, these details may remain depending on the lifecycle, the span of the lifecycle varies on the type of data stored. <i class=\"fa fa-exclamation-triangle\"></i> Is cookie enabled? <a href=\"https://www.whatismybrowser.com/detect/are-cookies-enabled\" target=\"_blank\">Check here</a> to check.","dismiss":"I Accept!","learnMore":"More info","link":"<?php echo base_url(); ?>cookiepolicy","theme":"light-bottom","theme" : false};
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/light-bottom.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+
+    <!-- End Cookie Consent plugin -->
+
+
   </head>
   <body>
 
